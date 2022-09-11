@@ -1,0 +1,24 @@
+{
+  "name": "wfhoa-main",
+  "version": "1.0.0",
+  "description": "## Domains",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wincopiafarmshoa/dotcom.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wincopiafarmshoa/dotcom/issues"
+  },
+  "homepage": "https://github.com/wincopiafarmshoa/dotcom#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  }
+}
