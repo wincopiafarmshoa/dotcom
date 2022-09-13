@@ -43,3 +43,17 @@ collections:
         file: src/our-community.njk
         fields:
           - { name: title, label: Title, widget: string }
+  - name: settings
+    label: Settings
+    format: yaml-frontmatter
+    files:
+      - name: navigation
+        label: Navigation
+        file: src/_includes/navigation.njk
+        fields:
+          - name: nav-items
+            label: Navigation
+            widget: list
+            fields:
+              - { name: label, label: Label, widget: string }
+              - { name: path, label: Path, widget: string }
