@@ -1,3 +1,7 @@
-h1 {
-    display: block;
+body {
+    margin: 0;
+    text-align: center;
+}
+img.design {
+    max-width: 1440px;
 }
