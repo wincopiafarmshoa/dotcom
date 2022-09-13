@@ -1,13 +1,5 @@
----
-nav-items:
-  - label: About Us
-    path: /about-us
-  - label: Our Community
-    path: /our-community
-  - label: Business Directory
-    path: /board-of-directors
-  - label: Contact Us
-    path: /contact-us
----
 <nav>
+  {% for item in nav_items %}
+    <a href="{{ item.path }}">{{ item.label }}</a>
+  {% endfor %}
 </nav>
