@@ -1,45 +1,45 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "public/assets"
-public_folder: "/assets"
+media_folder: public/assets
+public_folder: /assets
 collections:
-  - name: "pages"
-    label: "Pages"
-    format: "yaml-frontmatter"
+  - name: pages
+    label: Pages
+    format: yaml-frontmatter
     files:
-      - name: "about-us"
-        label: "About Us"
-        file: "src/about-us.njk"
+      - name: about-us
+        label: About Us
+        file: src/about-us.njk
         fields:
           - { name: title, label: Title, widget: string }
-      - name: "board-of-directors"
-        label: "Board of Directors"
-        file: "src/board-of-directors.njk"
+      - name: board-of-directors
+        label: Board of Directors
+        file: src/board-of-directors.njk
         fields:
           - { name: title, label: Title, widget: string }
-      - name: "committees"
-        label: "Committees"
-        file: "src/committees.njk"
+      - name: committees
+        label: Committees
+        file: src/committees.njk
         fields:
           - { name: title, label: Title, widget: string }
-      - name: "contact-us"
-        label: "Contact Us"
-        file: "src/contact-us.njk"
+      - name: contact-us
+        label: Contact Us
+        file: src/contact-us.njk
         fields:
           - { name: title, label: Title, widget: string }
-      - name: "faq"
-        label: "FAQ"
-        file: "src/faq.njk"
+      - name: faq
+        label: FAQ
+        file: src/faq.njk
         fields:
           - { name: title, label: Title, widget: string }
-      - name: "home"
-        label: "Homepage"
-        file: "src/index.njk"
+      - name: home
+        label: Homepage
+        file: src/index.njk
         fields:
           - { name: title, label: Title, widget: string }
-      - name: "our-community"
-        label: "Our Community"
-        file: "src/our-community.njk"
+      - name: our-community
+        label: Our Community
+        file: src/our-community.njk
         fields:
           - { name: title, label: Title, widget: string }
