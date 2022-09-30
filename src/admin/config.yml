@@ -57,3 +57,9 @@ collections:
             fields:
               - { name: label, label: Label, widget: string }
               - { name: path, label: Path, widget: string }
+              - name: sub_nav_items
+                label: Sub Navigation
+                widget: list
+                fields:
+                  - { name: label, label: Label, widget: string }
+                  - { name: path, label: Path, widget: string }
