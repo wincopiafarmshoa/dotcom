@@ -9,7 +9,7 @@ layout: 'base.njk'
     {% for module in modules %}
         <h2 style="text-align:center;">{{ module.type }}</h2>
         {% if (module.type == 'newsletter_signup') %}
-            {% include 'newsletter_signup.njk' %}
+            {% include 'modules/newsletter_signup.njk' %}
         {% endif %}
     {% endfor %}
 
