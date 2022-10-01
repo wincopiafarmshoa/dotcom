@@ -1,0 +1,29 @@
+<div class="container my-5">
+    <div class="row d-flex flex-md-row flex-column-reverse px-1">
+		<div class="col-md-6 border me-0 px-5">
+			{% if (module.title) %}
+				<h1 class="my-4">{{module.title}}</h1>
+			{% endif %}
+
+			<p class="text-secondary my-4">
+				{% if (module.description) %}
+					{{module.description}}
+				{% else %}
+					We respect your privacy and do not tolerate spam and will never sell, rent,
+					lease or give away your information (name, address, email, etc.) to any third party.
+					Nor will we send you unsolicited email.
+				{% endif %}
+			</p>
+
+			 <input type="text" name="name" placeholder="Your name" class="form-control form-control-lg my-4 border">
+			 <input type="email" name="email" placeholder="Your email" class="form-control form-control-lg my-4 border">
+
+			 <button type="button" class="btn btn-success w-50 py-2 my-4">
+				<h6 class="m-0 p-0">Subscribe</h6>
+			 </button>
+		</div>
+		<div class="col ms-0 p-0">
+			<img class="img-fluid h-100" src="/assets/newsletter-signup.jpg" alt="newsletter signup">
+		</div>
+	</div>
+</div>

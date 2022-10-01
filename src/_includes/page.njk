@@ -1,0 +1,16 @@
+---
+layout: 'base.njk'
+---
+
+<h1 style="text-align:center;">{{title}}</h1>
+
+<div class="container-fluid p-0 m-0" style="position: relative;">
+
+    {% for module in modules %}
+        <h2 style="text-align:center;">{{ module.type }}</h2>
+        {% if (module.type == 'newsletter_signup') %}
+            {% include 'newsletter_signup.njk' %}
+        {% endif %}
+    {% endfor %}
+
+</div>
