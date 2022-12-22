@@ -1,36 +1,36 @@
 .LeadA {
-	position: relative;
-	max-width: 1440px;
-	margin: 0 auto 140px auto;
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto 140px auto;
 }
 
 .LeadA-mask {
-	position: absolute;
-	bottom: 0;
-	left: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 .LeadA-content {
-	position: absolute;
-	bottom: -120px;
-	right: 50%;
-	transform: translate(50%, 0);
-	width: 100%;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 20px 20px 20px 30%;
-	text-align: right;
+    position: absolute;
+    bottom: -120px;
+    right: 50%;
+    transform: translate(50%, 0);
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 20px 20px 30%;
+    text-align: right;
 }
 
 .LeadA-title {
-	font-family: "Vidaloka";
-	font-size: 72px;
-	line-height: 80px;
-	margin-bottom: 20px;
+    font-family: "Vidaloka";
+    font-size: 72px;
+    line-height: 80px;
+    margin-bottom: 20px;
 }
 
 .LeadA-description {
-	font-family: "Nuckle-Thin";
-	font-size: 20px;
-	line-height: 40px;
+    font-family: "Nuckle-Thin";
+    font-size: 20px;
+    line-height: 40px;
 }

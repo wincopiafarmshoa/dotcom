@@ -1,14 +1,14 @@
 .TripleStackList {
-	
+
 }
 
 .TripleStackList-list {
-	display: flex;
-	justify-content: space-between;
-	margin: 0 -10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -10px;
 }
 
 .TripleStackList-list-item {
-	width: 33%;
-	margin: 0 10px;
+    width: 33%;
+    margin: 0 10px;
 }

@@ -1,35 +1,35 @@
 @font-face {
-  font-family: 'GothamBlack';
-  src: url('../../../assets/fonts/Gotham-Black-Regular.ttf');
-  font-weight: 400;
+    font-family: 'GothamBlack';
+    src: url('../../../assets/fonts/Gotham-Black-Regular.ttf');
+    font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Vidaloka';
-  src: url('../../../assets/fonts/Vidaloka-Regular.ttf');
-  font-weight: 400;
+    font-family: 'Vidaloka';
+    src: url('../../../assets/fonts/Vidaloka-Regular.ttf');
+    font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Nuckle-Thin';
-  src: url('../../../assets/fonts/Nuckle-Thin.ttf');
-  font-weight: 200;
+    font-family: 'Nuckle-Thin';
+    src: url('../../../assets/fonts/Nuckle-Thin.ttf');
+    font-weight: 200;
 }
 
 @font-face {
-  font-family: 'Nuckle-Regular';
-  src: url('../../../assets/fonts/Nuckle-Regular.ttf');
-  font-weight: 400;
+    font-family: 'Nuckle-Regular';
+    src: url('../../../assets/fonts/Nuckle-Regular.ttf');
+    font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Nuckle-Medium';
-  src: url('../../../assets/fonts/Nuckle-Medium.ttf');
-  font-weight: 600;
+    font-family: 'Nuckle-Medium';
+    src: url('../../../assets/fonts/Nuckle-Medium.ttf');
+    font-weight: 600;
 }
 
 @font-face {
-  font-family: 'Nuckle-Bold';
-  src: url('../../../assets/fonts/Nuckle-Bold.ttf');
-  font-weight: 700;
+    font-family: 'Nuckle-Bold';
+    src: url('../../../assets/fonts/Nuckle-Bold.ttf');
+    font-weight: 700;
 }

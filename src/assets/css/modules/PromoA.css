@@ -1,33 +1,33 @@
 .PromoA {
-	max-width: 676px;
+    max-width: 676px;
 }
 
 .PromoA-link {
-	display: block;
-	color: #000;
+    display: block;
+    color: #000;
 }
 
 .PromoA-media {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .PromoA-date {
-	display: block;
-	font-family: 'Nuckle-Thin';
-	font-size: 16px;
-	line-height: 32px;
-	margin-bottom: 10px;
+    display: block;
+    font-family: 'Nuckle-Thin';
+    font-size: 16px;
+    line-height: 32px;
+    margin-bottom: 10px;
 }
 
 .PromoA-title {
-	font-family: 'Vidaloka';
-	font-size: 40px;
-	line-height: 48px;
-	margin-bottom: 20px;
+    font-family: 'Vidaloka';
+    font-size: 40px;
+    line-height: 48px;
+    margin-bottom: 20px;
 }
 
 .PromoA-description {
-	font-family: 'Nuckle-Thin';
-	font-size: 16px;
-	line-height: 32px;
+    font-family: 'Nuckle-Thin';
+    font-size: 16px;
+    line-height: 32px;
 }

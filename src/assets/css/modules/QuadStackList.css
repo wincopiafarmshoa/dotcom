@@ -1,25 +1,25 @@
 .QuadStackList {
-	width: 100%;
-	height: 100%;
-	/* height: 567px; */
-	padding: 150px 0;
-	background: url('../../images/callout-grid-2.png') no-repeat;
-	background-size: cover;
-	display: flex;
-	align-items: center;
+    width: 100%;
+    height: 100%;
+    /* height: 567px; */
+    padding: 150px 0;
+    background: url('../../images/callout-grid-2.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 }
 
 .QuadStackList-list {
-	display: flex;
-	justify-content: space-between;
-	width:100%;
-	max-width: 1200px;
-	margin: 0 auto;
-	padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 
 .QuadStackList-list-item {
-	width: 25%;
-	max-width: 269px;
-	margin: 0 10px;
+    width: 25%;
+    max-width: 269px;
+    margin: 0 10px;
 }

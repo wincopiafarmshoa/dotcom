@@ -1,21 +1,21 @@
 .wf-breadcrumb {
-	width: 100%;
-	max-width: 1200px;
-	padding: 0 20px;
-	margin: 0 auto 75px auto;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto 75px auto;
 }
 
-.wf-breadcrumb-list, 
-.wf-breadcrumb-list-item, 
+.wf-breadcrumb-list,
+.wf-breadcrumb-list-item,
 .wf-breadcrumb-link {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .wf-breadcrumb-link {
-	color: #1D4ED8;
+    color: #1D4ED8;
 }
 
 .wf-breadcrumb-link svg {
-	color: #525252;
+    color: #525252;
 }

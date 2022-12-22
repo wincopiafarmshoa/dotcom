@@ -1,27 +1,27 @@
 .PromoB {
-	
+
 }
 
 .PromoB-link {
-	display: flex;
-	align-items: center;
-	color: #000;
+    display: flex;
+    align-items: center;
+    color: #000;
 }
 
 .PromoB-media {
-	margin-right: 30px;
+    margin-right: 30px;
 }
 
 .PromoB-title {
-	font-family: 'Nuckle-Bold';
-	font-size: 24px;
-	line-height: 32px;
-	color: #333;
+    font-family: 'Nuckle-Bold';
+    font-size: 24px;
+    line-height: 32px;
+    color: #333;
 }
 
 .PromoB-description {
-	font-family: 'Nuckle-Thin';
-	font-size: 16px;
-	line-height: 32px;
-	color: #5B5A5A;
+    font-family: 'Nuckle-Thin';
+    font-size: 16px;
+    line-height: 32px;
+    color: #5B5A5A;
 }

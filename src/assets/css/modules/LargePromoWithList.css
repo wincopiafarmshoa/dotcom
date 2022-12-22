@@ -1,19 +1,19 @@
 .LargePromoWithList {
-	
+
 }
 
 .LargePromoWithList-content {
-	display: flex;
-	justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .LargePromoWithList-title {
-	font-family: "Vidaloka";
-	font-size: 56px;
-	line-height: 64px;
-	margin-bottom: 48px;
+    font-family: "Vidaloka";
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 48px;
 }
 
 .LargePromoWithList-list-item {
-	margin-bottom: 20px;
+    margin-bottom: 20px;
 }

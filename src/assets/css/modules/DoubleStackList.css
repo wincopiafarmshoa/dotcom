@@ -1,9 +1,9 @@
 .DoubleStackList-list {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 0 -10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
 }
 
 .DoubleStackList-list-item {
-	margin: 0 10px 60px 10px;
+    margin: 0 10px 60px 10px;
 }

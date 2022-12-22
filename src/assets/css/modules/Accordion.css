@@ -1,43 +1,43 @@
 .Accordion {
-	margin-bottom: 60px;
+    margin-bottom: 60px;
 }
 
 .Accordion-list-item {
-	border: solid 1px #379683;
-	margin-bottom: 5px;
-	background: #fff;
+    border: solid 1px #379683;
+    margin-bottom: 5px;
+    background: #fff;
 }
 
 .Accordion-question {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 10px 20px;
-	font-family: 'Nuckle-Thin';
-	font-size: 20px;
-	line-height: 40px;
-	cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    font-family: 'Nuckle-Thin';
+    font-size: 20px;
+    line-height: 40px;
+    cursor: pointer;
 }
 
 .Accordion-list-item[data-open="true"] .Accordion-question {
-	background: #379683;
-	color: #fff;
+    background: #379683;
+    color: #fff;
 }
 
 .Accordion-question svg {
-	font-size: 25px;
-	cursor: pointer;
+    font-size: 25px;
+    cursor: pointer;
 }
 
 .Accordion-answer {
-	display: none;
-	padding: 10px 20px;
-	font-family: 'Nuckle-Thin';
-	font-size: 20px;
-	line-height: 40px;
+    display: none;
+    padding: 10px 20px;
+    font-family: 'Nuckle-Thin';
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .Accordion-list-item[data-open="true"] .Accordion-answer {
-	display: block;
+    display: block;
 }
 
