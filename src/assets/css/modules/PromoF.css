@@ -1,0 +1,15 @@
+.PromoF {
+	font-family: 'Nuckle-Thin';
+}
+
+.PromoF-title {
+	font-family: 'VidaLoka';
+	font-size: 40px;
+	line-height: 48px;
+	margin-bottom: 15px;
+}
+
+.PromoF-date {
+	font-size: 16px;
+	line-height: 32px;
+}

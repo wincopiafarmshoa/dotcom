@@ -1,0 +1,20 @@
+/* scaffolding */
+.wf-Two-Column-Layout {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto 80px auto;
+}
+
+.wf-Two-Column-Layout .wf-content {
+	width: 100%;
+	max-width: 674px;
+}
+	
+.wf-Two-Column-Layout .wf-aside {
+	width: 100%;
+	max-width: 368px;
+	margin-left: 130px;
+}

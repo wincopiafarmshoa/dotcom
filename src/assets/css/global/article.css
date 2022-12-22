@@ -1,0 +1,26 @@
+/* article styles */
+.wf-content {
+	font-family: 'Nuckle-Thin';
+	font-size: 20px;
+    line-height: 40px;
+}
+
+.wf-content p {
+    margin-bottom: 30px;
+}
+
+.wf-content ul {
+	margin-bottom: 80px;
+}
+
+.wf-content ul li {
+	margin-bottom: 25px;
+}
+
+.wf-content img {
+	margin-bottom: 30px;
+}
+
+.wf-aside .PromoBasic {
+	margin-bottom: 25px
+}

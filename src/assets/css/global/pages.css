@@ -1,0 +1,45 @@
+/* Pages w/ background */
+[data-bg="true"] {
+	position: relative;
+	padding-top: 200px;
+}
+
+[data-bg="true"]::before {
+	content: '';
+	background: linear-gradient(0deg, rgba(186, 155, 66, 0.2), rgba(186, 155, 66, 0.2));
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	max-height: 530px;
+	z-index: -1;
+}
+
+[data-bg="true"] .wf-main, 
+[data-bg="true"] .wf-above,
+[data-bg="true"] .wf-below {
+	position: relative;
+	z-index: 1;
+}
+
+h1.Page-title {
+	font-family: 'Vidaloka';
+	font-size: 72px;
+	line-height: 80px;
+	width: 100%;
+	max-width: 1200px;
+	padding: 0 20px;
+	margin: 0 auto 70px auto;
+}
+
+.wf-main {
+	position: relative;
+	z-index: 100;
+}
+
+/* Board */
+.Board .wf-Two-Column-Layout {
+	padding: 20px 20px 0 20px;
+	background: #fff;
+}

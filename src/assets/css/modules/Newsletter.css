@@ -1,0 +1,53 @@
+.Newsletter {
+	display: flex;
+	border-radius: 7px;
+}
+
+.Newsletter-title {
+	font-family: 'Vidaloka';
+	font-size: 56px;
+	line-height: 64px;
+	margin-bottom: 20px;
+}
+
+.Newsletter-description {
+	font-family: 'Nuckle-Thin';
+	font-size: 16px;
+	line-height: 32px;
+	margin-bottom: 20px;
+}
+
+.Newsletter-form {
+	width: 50%;
+	border-bottom: 1px solid #EEEEEE;
+	border-left: 1px solid #EEEEEE;
+	border-top: 1px solid #EEEEEE;
+	padding: 50px 64px;
+}
+
+.Newsletter-form-label {
+	display: none;
+}
+
+.Newsletter-form-input {
+	border: solid 1px #EEEEEE;
+	font-size: 16px;
+	line-height: 32px;
+	font-family: 'Nuckle-Thin';
+	padding: 15px;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.Newsletter-form-submit {
+	color: #fff;
+	padding: 15px 40px;
+	background: #379683;
+	border: none;
+}
+
+.Newsletter-media {
+	width: 50%;
+	max-width: 570px;
+}
