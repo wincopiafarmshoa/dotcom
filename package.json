@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/wincopiafarmshoa/dotcom#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2"
+    "@11ty/eleventy": "^1.0.2",
+    "nunjucks-global-uid": "0.0.1"
   }
 }
