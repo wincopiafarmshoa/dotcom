@@ -2,15 +2,12 @@
 layout: 'base.njk'
 ---
 
-<h1 style="text-align:center;">{{title}}</h1>
+<main class="wf-main" data-bg="true">
 
-<div class="container-fluid p-0 m-0" style="position: relative;">
+    <h1 class="Page-title">{{ title }}</h1>
 
     {% for module in modules %}
-        <h2 style="text-align:center;">{{ module.type }}</h2>
-        {% if (module.type == 'newsletter_signup') %}
-            {% include 'modules/newsletter_signup.njk' %}
-        {% endif %}
+        {% include 'modules/module.njk' %}
     {% endfor %}
 
-</div>
+</main>

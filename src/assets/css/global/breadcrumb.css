@@ -1,0 +1,32 @@
+.wf-breadcrumb {
+    display: none;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto 25px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .wf-breadcrumb {
+        margin: 0 auto 75px auto;
+    }
+}
+
+[data-bg="true"] .wf-breadcrumb {
+    display: block;
+}
+
+.wf-breadcrumb-list,
+.wf-breadcrumb-list-item,
+.wf-breadcrumb-link {
+    display: flex;
+    align-items: center;
+}
+
+.wf-breadcrumb-link {
+    color: #1D4ED8;
+}
+
+.wf-breadcrumb-link svg {
+    color: #525252;
+}

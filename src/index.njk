@@ -1,9 +1,12 @@
 ---
 title: Homepage
-layout: 'base.njk'
+layout: base.njk
 ---
 
 <main class="wf-main">
+
+    {% include 'breadcrumb.njk' %}
+
     <div class="LeadA">
         <img class="LeadA-image" src="../assets/images/home-lead-1.png" />
         <img class="LeadA-mask" src="../assets/images/home-lead-1-mask.png" />
@@ -12,6 +15,7 @@ layout: 'base.njk'
             <p class="LeadA-description">Located in Howard County’s southeastern side, Wincopia Farms is a tight knit community of families of 220 homeowners. Our community of 171 single-family and 49 townhomes is ideally located on 124 acres.</p>
         </div>
     </div>
+
     <div class="TripleStackList module">
         <ul class="TripleStackList-list">
             <li class="TripleStackList-list-item">
@@ -52,6 +56,7 @@ layout: 'base.njk'
             </li>
         </ul>
     </div>
+
     <div class="LargePromoWithList module">
         <h3 class="LargePromoWithList-title">Inside Wincopia</h3>
         <div class="LargePromoWithList-content">
@@ -111,44 +116,9 @@ layout: 'base.njk'
             </ul>
         </div>
     </div>
-    <div class="QuadStackList module-fullwidth">
-        <ul class="QuadStackList-list">
-            <li class="QuadStackList-list-item">
-                <div class="PromoC">
-                    <h3 class="PromoC-title">Open Since</h3>
-                    <span class="PromoC-number">2015</span>
-                </div>
-            </li>
-            <li class="QuadStackList-list-item">
-                <div class="PromoC">
-                    <h3 class="PromoC-title">Single-Family</h3>
-                    <span class="PromoC-number">171</span>
-                </div>
-            </li>
-            <li class="QuadStackList-list-item">
-                <div class="PromoC">
-                    <h3 class="PromoC-title">Townhomes</h3>
-                    <span class="PromoC-number">49</span>
-                </div>
-            </li>
-            <li class="QuadStackList-list-item">
-                <div class="PromoC">
-                    <h3 class="PromoC-title">Open Fields</h3>
-                    <span class="PromoC-number">2</span>
-                </div>
-            </li>
-        </ul>
-    </div>
-    <div class="Newsletter module">
-        <form class="Newsletter-form">
-            <h3 class="Newsletter-title">Sign up for our newsletter</h3>
-            <p class="Newsletter-description">We respect your privacy and do not tolerate spam and will never sell, rent, lease or give away your information (name, address, email, etc.) to any third party. Nor will we send you unsolicited email.</p>
-            <label class="Newsletter-form-label" for="name">name</label>
-            <input class="Newsletter-form-input" id="name" type="text" placeholder="Your name"></input>
-            <label class="Newsletter-form-label" for="email">email</label>
-            <input class="Newsletter-form-input" id="email" type="text" placeholder="Your email"></input>
-            <button class="Newsletter-form-submit" type="submit">Subscribe</button>
-        </form>
-        <img class="Newsletter-media" src="../assets/images/newsletter.png" />
-    </div>
+
+    {% include 'modules/call_out_grid.njk' %}
+
+    {% include 'modules/newsletter_signup.njk' %}
+
 </main>

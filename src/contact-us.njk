@@ -1,15 +1,21 @@
 ---
 title: Contact Us
-layout: 'base.njk'
+layout: base.njk
 ---
 
-<div class="LeadB">
-    <img class="LeadB-image" src="../assets/images/about-us-lead.png" />
-    <div class="LeadB-overlay"></div>
-    <img class="LeadB-mask" src="../assets/images/LeadB-mask.png" />
-    <h1 class="LeadB-title">Contact Us</h1>
-</div>
 <main class="wf-main">
+
+    {% include 'breadcrumb.njk' %}
+
+    <div class="LeadB">
+        <div class="LeadB-image">
+            <img src="../assets/images/about-us-lead.png" />
+        </div>
+        <div class="LeadB-overlay"></div>
+        <img class="LeadB-mask" src="../assets/images/LeadB-mask.png" />
+        <h1 class="LeadB-title">Contact Us</h1>
+    </div>
+
     <div class="wf-Two-Column-Layout">
         <section class="wf-content">
             <ul>
@@ -59,16 +65,7 @@ layout: 'base.njk'
             </div>
         </aside>
     </div>
-    <div class="Newsletter module">
-        <form class="Newsletter-form">
-            <h3 class="Newsletter-title">Sign up for our newsletter</h3>
-            <p class="Newsletter-description">We respect your privacy and do not tolerate spam and will never sell, rent, lease or give away your information (name, address, email, etc.) to any third party. Nor will we send you unsolicited email.</p>
-            <label class="Newsletter-form-label" for="name">name</label>
-            <input class="Newsletter-form-input" id="name" type="text" placeholder="Your name"></input>
-            <label class="Newsletter-form-label" for="email">email</label>
-            <input class="Newsletter-form-input" id="email" type="text" placeholder="Your email"></input>
-            <button class="Newsletter-form-submit" type="submit">Subscribe</button>
-        </form>
-        <img class="Newsletter-media" src="../assets/images/newsletter.png" />
-    </div>
+
+    {% include 'modules/newsletter_signup.njk' %}
+
 </main>

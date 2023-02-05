@@ -1,15 +1,21 @@
 ---
 title: Our Community
-layout: 'base.njk'
+layout: base.njk
 ---
 
-<div class="LeadB">
-    <img class="LeadB-image" src="../assets/images/our-community-lead.png" />
-    <div class="LeadB-overlay"></div>
-    <img class="LeadB-mask" src="../assets/images/LeadB-mask.png" />
-    <h1 class="LeadB-title">Our Community</h1>
-</div>
 <main class="wf-main">
+
+    {% include 'breadcrumb.njk' %}
+
+    <div class="LeadB">
+        <div class="LeadB-image">
+            <img src="../assets/images/our-community-lead.png" />
+        </div>
+        <div class="LeadB-overlay"></div>
+        <img class="LeadB-mask" src="../assets/images/LeadB-mask.png" />
+        <h1 class="LeadB-title">Our Community</h1>
+    </div>
+
     <div class="wf-Two-Column-Layout">
         <section class="wf-content">
             <p>Each homeowner in Wincopia Farms is automatically a member of the Wincopia Farms Homeowners Association (HOA) and is welcome to participate fully in its day-to-day activities and governance. The Wincopia Farms HOA is self-managed, meaning that all decisions bearing on the HOA are made exclusively by the HOA membership. The HOA does use HPS Management as a “management company” to handle administrative matters and financial transactions, but it plays no substantive role in the decision making or governance of the HOA.</p>
@@ -53,4 +59,5 @@ layout: 'base.njk'
             </div>
         </aside>
     </div>
+
 </main>

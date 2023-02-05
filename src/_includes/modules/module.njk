@@ -1,0 +1,10 @@
+
+<h2 style="text-align:center;">{{ module.type }}</h2>
+
+{% if (module.type == 'newsletter_signup') %}
+    {% include 'modules/newsletter_signup.njk' %}
+{% elif (module.type == 'two_column_container') %}
+    {% include 'modules/two_column_container.njk' %}
+{% elif (module.type == 'accordion') %}
+    {% include 'modules/accordion.njk' %}
+{% endif %}

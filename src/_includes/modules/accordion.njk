@@ -1,0 +1,17 @@
+{#https://codepen.io/raubaca/pen/PZzpVe?editors=1100#}
+{#https://www.npmjs.com/package/nunjucks-global-uid#}
+{#https://www.11ty.dev/docs/shortcodes/#}
+{#https://mozilla.github.io/nunjucks/templating.html#range-start-stop-step#}
+<div class="Accordion module">
+    <ul class="Accordion-list">
+        {{ module.title }}
+        {% for item in module.accordion_items %}
+            <li class="Accordion-list-item">
+                {% setId 'Accordion-list-item' %}
+                <input class="Accordion-toggle" type="checkbox" id="{% getId 'Accordion-list-item' %}">
+                <label class="Accordion-question" for="{% getId 'Accordion-list-item' %}">{{ item.label }}</label>
+                <div class="Accordion-answer">{{ item.content }}</div>
+            </li>
+        {% endfor %}
+    </ul>
+</div>

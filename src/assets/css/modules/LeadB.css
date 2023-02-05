@@ -1,7 +1,13 @@
 .LeadB {
     position: relative;
     max-width: 1440px;
-    margin: 0 auto -80px auto;
+    margin: 0 auto -40px auto;
+}
+
+@media screen and (min-width: 768px) {
+    .LeadB {
+        margin: 0 auto -80px auto;
+    }
 }
 
 .LeadB-overlay {
@@ -22,8 +28,8 @@
 
 .LeadB-title {
     font-family: "Vidaloka";
-    font-size: 72px;
-    line-height: 80px;
+    font-size: 42px;
+    line-height: normal;
     margin-bottom: 20px;
     position: absolute;
     top: 40%;
@@ -31,4 +37,11 @@
     transform: translate(-50%, -50%);
     z-index: 100;
     Color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .LeadB-title {
+        font-size: 72px;
+        line-height: 80px;
+    }
 }

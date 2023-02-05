@@ -1,41 +1,21 @@
 ---
 title: HOA Committees
-layout: 'base.njk'
+layout: base.njk
 ---
 
 <main class="wf-main" data-bg="true">
-    <div class="wf-breadcrumb">
-        <ul class="wf-breadcrumb-list">
-            <li class="wf-breadcrumb-list-item">
-                <a class="wf-breadcrumb-link" href="#">
-                    <span class="wf-breadcrumb-link-text">Home</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M9.4 18L8 16.6l4.6-4.6L8 7.4L9.4 6l6 6Z"/>
-                    </svg>
-                </a>
-            </li>
-            <li class="wf-breadcrumb-list-item">
-                <a class="wf-breadcrumb-link" href="#">
-                    <span class="wf-breadcrumb-link-text">About Us</span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M9.4 18L8 16.6l4.6-4.6L8 7.4L9.4 6l6 6Z"/>
-                    </svg>
-                </a>
-            </li>
-            <li class="wf-breadcrumb-list-item">
-                <a class="wf-breadcrumb-link" href="#">
-                    <span class="wf-breadcrumb-link-text">Frequently Asked Questions</span>
-                </a>
-            </li>
-        </ul>
-    </div>
+
+    {% include 'breadcrumb.njk' %}
+
     <h1 class="Page-title">HOA Committees</h1>
+
     <div class="Intro module">
         <div class="Intro-content">
             <p>The Wincopia Farms Homeowners Association is guided by volunteers from our community serving on the Board of Directors, Officers and Committees. The Wincopia Farms HOA has six officially sanctioned Committees. Volunteer members serve the residents and the Board in many ways and work directly with the management company and residents to fulfill needs, enhance community life and follow the Association Governing Documents.</p>
             <p>We are always looking for volunteers for our committees. If you would like to help out your community, please send an email to wincopiafarms@gmail.com.</p>
         </div>
     </div>
+
     <div class="DoubleStackList module">
         <ul class="DoubleStackList-list">
             <li class="DoubleStackList-list-item">
@@ -120,4 +100,5 @@ layout: 'base.njk'
             </li>
         </ul>
     </div>
+
 </main>

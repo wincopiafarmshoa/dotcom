@@ -4,9 +4,9 @@
 @import url("./global/grids.css");
 @import url("./global/pages.css");
 @import url("./global/modules.css");
-@import url("./modules/header.css");
-@import url("./modules/footer.css");
-@import url("./modules/breadcrumb.css");
+@import url("./global/header.css");
+@import url("./global/footer.css");
+@import url("./global/breadcrumb.css");
 @import url("./global/article.css");
 
 /* Modules */
@@ -30,4 +30,3 @@
 @import url("./modules/TripleStackList.css");
 @import url("./modules/QuadStackList.css");
 @import url("./modules/LargePromoWithList.css");
-

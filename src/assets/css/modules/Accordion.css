@@ -8,6 +8,12 @@
     background: #fff;
 }
 
+.Accordion-toggle {
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+
 .Accordion-question {
     display: flex;
     align-items: center;
@@ -17,27 +23,37 @@
     font-size: 20px;
     line-height: 40px;
     cursor: pointer;
+    transition: all .35s;
 }
 
-.Accordion-list-item[data-open="true"] .Accordion-question {
+.Accordion-toggle:checked ~ .Accordion-question {
     background: #379683;
     color: #fff;
 }
 
-.Accordion-question svg {
+.Accordion-question:after {
+    content: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20font-size%3D%2225px%22%20width%3D%221em%22%20height%3D%221em%22%20preserveAspectRatio%3D%22xMidYMid%20meet%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M7.41%208.58L12%2013.17l4.59-4.59L18%2010l-6%206l-6-6l1.41-1.42Z%22%2F%3E%3C%2Fsvg%3E");
+    width: 1em;
+    height: 1em;
     font-size: 25px;
-    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+.Accordion-toggle:checked ~ .Accordion-question:after {
+    transform: rotate(0deg);
 }
 
 .Accordion-answer {
-    display: none;
-    padding: 10px 20px;
+    overflow: hidden;
+    padding: 0 20px;
     font-family: 'Nuckle-Thin';
     font-size: 20px;
     line-height: 40px;
+    max-height: 0;
+    transition: all 0.35s;
 }
 
-.Accordion-list-item[data-open="true"] .Accordion-answer {
-    display: block;
+.Accordion-toggle:checked ~ .Accordion-answer {
+    padding: 10px 20px;
+    max-height: 100vh;
 }
-

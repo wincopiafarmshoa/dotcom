@@ -1,7 +1,13 @@
 /* Pages w/ background */
 [data-bg="true"] {
     position: relative;
-    padding-top: 200px;
+    padding-top: 100px;
+}
+
+@media screen and (min-width: 768px) {
+    [data-bg="true"] {
+        padding-top: 200px;
+    }
 }
 
 [data-bg="true"]::before {
@@ -33,14 +39,20 @@ h1.Page-title {
     margin: 0 auto 70px auto;
 }
 
+@media screen and (min-width: 768px) {
+    h1.Page-title {
+        font-size: 72px;
+        line-height: 80px;
+    }
+}
+
 .wf-main {
     position: relative;
     z-index: 100;
     overflow-x: hidden;
 }
 
-/* Board */
-.Board .wf-Two-Column-Layout {
+[data-bg="true"] .wf-Two-Column-Layout {
     padding: 20px 20px 0 20px;
     background: #fff;
 }

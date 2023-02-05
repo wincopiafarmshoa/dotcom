@@ -10,7 +10,14 @@
 
 .PromoBasic-title {
     font-family: "Nuckle-regular";
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 18px;
+    line-height: 24px;
     color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .PromoBasic-title {
+        font-size: 24px;
+        line-height: 32px;
+    }
 }

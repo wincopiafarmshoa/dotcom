@@ -1,0 +1,17 @@
+<div class="container">
+	<div class="row">
+	    <!-- left column -->
+		<div class="col-md-6">
+		    {% for module in module.left_column.modules %}
+                {% include 'modules/module.njk' %}
+            {% endfor %}
+		</div>
+
+		<!-- right column -->
+		<div class="col-md-3 col-10 offset-md-3 offset-1 offset-md-3 p-0">
+		    {% for module in module.right_column.modules %}
+                {% include 'modules/module.njk' %}
+            {% endfor %}
+		</div>
+	</div>
+</div>
